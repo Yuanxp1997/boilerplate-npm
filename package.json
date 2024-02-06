@@ -2,7 +2,8 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "steven",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"@freecodecamp/example": "^1.0.0"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -12,5 +13,9 @@
 		"type": "git",
 		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
 	},
-	"description": "A project for freeCodeCamp"
+	"keywords": ["freecodecamp", "node", "npm"],
+	"description": "A project for freeCodeCamp",
+	"license": "MIT",
+	"version": "1.0.0"
+
 }
